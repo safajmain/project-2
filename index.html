@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header {
+            width: 100%;
+            background-color: white;
+            border-bottom: 1px solid black;
+         }
+
+        .head {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            height: 100px;
+            padding: 10px 0;
+        }
+
+        .head img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        .head a {
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .head a:hover {
+            color: orange;
+        }
+        
+
+        #part1 a {
+            margin-left: 20px;
+        }
+
+        .section1 {margin: auto;
+            width: 80%;
+            background-color: white;
+            padding: 10px 0;
+         }
+
+        .section1 a {
+            margin: 0 15px;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: left;
+            padding: 45px;
+        }
+        .section1 a:hover{ color: orange;}
+
+        .photo1 {
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .photo1 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #saction2 {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        #saction2 h3, #saction2 p {
+            margin: 0;
+            padding: 15px;           
+             padding-left: 400px;
+            font-size: 20px;
+            text-align: justify;
+             
+        }
+
+        .section3 {
+    width: 80%;
+
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.yellow-background {
+    width: 35%;
+    background-color: #fbffa7;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 95px;  
+}
+
+.yellow-background img {
+    max-width: 30%;
+    height: auto;
+}
+
+.image-left {
+    width: 50%;
+    position: relative;
+    z-index: 3;  
+    margin-left: -110px;  
+}
+
+.image-left img {
+    max-width: 100%;
+    height: auto;
+}
+#section4 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#section4 h5 {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;  
+}
+
+#section4 p {
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;  
+    text-align: justify;  
+    margin: 0 20px;
+    margin-left: 800px;
+}
+
+        .photo-video {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .photo-video img {
+            max-width: 90%;
+            height: 400px;
+        }
+        .photo-video p{text-align: left;
+        padding-left: 490px;
+        }
+        
+        .saction5 {
+            width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    text-align: left;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.section5 h5 {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;  
+}
+
+.section5 p {
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left; 
+    text-align: justify; 
+    margin: 0 20px;
+    margin-left: 800px;
+
+
+
+}
+
+
+
+.section6 {
+    width: 40%;
+
+margin: 20px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+background-color: white;
+}
+ 
+.images-container{ background-color: aquamarine;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+    width: 70%;
+    height: 700px;
+ }
+ .images-container img{width: 60%; 
+   
+height: 155px;
+}
+.outside-image{  width: 45px;
+    height: 800px;
+    position: absolute;
+   
+      margin-left:500px ;
+      margin-top: 120px;
+
+}
+
+
+        .section7 {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section7 h2, .section7 p {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .photo-img-2 {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .photo-img-2 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section9 {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section9 h2, .section9 p {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .background {
+            width: 30%;
+            height: 700px;
+            margin: 20px auto;
+            position: relative;
+            background-color:#d5b3ff;
+
+        }
+
+        .background img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+         
+            object-fit: cover;
+        }
+
+        .right-image {
+            right: -100px;
+            width: 300px;
+            height: 500px;
+        }
+
+        .left-image {
+            left: -100px;
+            width: 300px;
+            height: 400px;
+        }
+
+       
+
+
+        .section7{   width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .section7 h3, .section7 p {
+            margin: 0;
+            padding: 15px;           
+             padding-left: 400px;
+            font-size: 20px;
+            text-align: justify;
+             
+        }  
+
+        .photo-img-2 {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .photo-img-2 img {
+            max-width: 90%;
+            height: 400px;
+        }
+        .photo-img-2 p{text-align: left;
+        padding-left: 490px;
+        }
+
+        .section9{ width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .section9 h3, .section9 p {
+            margin: 0;
+            padding: 15px;           
+             padding-left: 400px;
+            font-size: 20px;
+            text-align: justify;
+             
+        }  
+      .section10{ width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color:white;
+            text-align: center;
+        }
+
+        .section10 h3, .section10 p {
+            margin: 0;
+            padding: 15px;           
+             padding-left: 400px;
+            font-size: 20px;
+            text-align: justify;
+          
+      }
+
+      .container {
+            width: 60%;
+            margin: 20px auto;
+            display: flex;
+           
+        }
+
+        .text-box {
+            background-color: #b1c5ff
+
+;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .text-box p {
+            font-size: 16px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .image-box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+        }
+      
+        .button{ padding-left: 175px;
+             height: 60px;
+            width: 80%;
+  text-align: left;
+  margin: auto;
+
+        }
+ .icon-container{width: 15%; height: 400px;
+         margin-left: 149px ;
+        font-style: normal;
+        text-transform: capitalize;
+        float: left;
+        padding: 40px 50px ;
+        
+       }
+ 
+
+.icon-container1{width: 27%; 
+    height: 400px;
+        font-style: normal;
+        text-transform: capitalize;
+        float: left;
+        padding: 40px 50px ;
+    display: block;
+
+}
+
+
+.icon-container2{width:32%; height: 400px;
+        
+        
+        font-style: normal;
+        text-transform: capitalize;
+        float: left;
+        padding: 40px 50px ;
+ 
+
+}
+.final{
+    width: 80%;
+    height: 50px;
+     
+    margin: auto;
+    clear: both;
+    padding: auto;
+    padding-top: 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="head">
+            <img src="images.png" alt="Logo">
+            <div id="part1">
+                <a href="#"> live</a>
+            <a href="#"> push</a>
+            <a href="#"> link</a>
+            <a href="#"> shop</a>
+            <a href="#"> packs</a>
+            <a href="#"> help</a>
+            <a href="#"> more +</a>
+ 
+            </div>
+            <div id="part1">
+                <a href="#">Try Live for Free</a>
+                <a href="#">Account</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
+
+        <div class="section1">
+            <a href="#">About</a>
+            <a href="#">log out</a>
+        </div>
+    </div>
+
+    <div class="photo1">
+        <img src="head.png" alt="Header Image">
+    </div>
+
+    <div id="saction2">
+        <h3>We make <span style="color: blue;">Live</span>, <span style="color: blue;">Push</span> and <span style="color: blue;">Link</span> - unique software and hardware <br> for music creation and performance. With these products, our <br> community of users creates amazing things.</h3>
+        <p>Ableton was founded in 1999 and released the first version of Live in 2001. Our product are used <br> by a community of dedicated musicians, sound designers, and artists from across the world.</p>
+    </div>
+
+    <div class="section3">
+        <div class="yellow-background">
+            <img src="ableton-studio.jpg" alt="Ableton Studio">
+        </div>
+        <div class="image-left">
+            <img src="images.jpg" alt="Another Image">
+        </div>
+    </div>
+
+    <div id="section4">
+        <h3>Making music isn't easy. It takes effort and learning. But <br>when you're in the flow, it's incredibly rewarding.</h3>
+        <p>We feel the same way about making Ableton products. The driving force behind Ableton is our<br>  passion for what we make and the people we make it for.</p>
+    </div>
+
+    <div class="photo-video">
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/9SbnhgjeyXA?start=3"
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+        <p>Why Ableton-Juanpe Bolivar</p>
+    </div>
+
+    <div class="saction5">
+        <h3>We are more than 350 people from 30 different countries <br>
+            divided between our headquarters in Berlin and our offices in <br>Los Angeles and Tokyo.</h3>
+        <p>Most of us are active musicians, producers, and DJs, and many of us use Live and Push 
+            every day. <br> We come from a wide range of cultural and professional 
+            backgrounds. Some of us have PhDs,<br>  some are self-taught, and most of us 
+            are somewhere in between. What connects us is the shared<br> belief that each of us 
+            has the skills and knowledge to contribute to something big: helping to shape<br>
+             the future of music culture.</p>
+    </div>
+
+    <div class="section6">
+        <div class="images-container">
+            <img src="Screenshot 2024-09-13 153246.png" alt="Image 1">
+            <img src="Screenshot 2024-09-13 153101.png" alt="Image 2">
+        </div>
+        <div  class="outside-image"> <img  src="ableton-studio.jpg" alt="Outside Image"></div>
+    </div>
+ 
+
+    <div class="section7">
+        <h2>We believe it takes focus to create truly outstanding instruments.<br>
+             We only work on a few products and we strive to make them<br> great.</h2>
+        <p>Rather than having a one-size-fits-all process, we try to give 
+            our people what they need to work <br>
+             their magic and grow. We've learned that achieving the best results comes from
+              building teams that <br> 
+              are richly diverse, and thus able to explore problems from a wider set
+               of perspectives. We don't<br>  always agree with each other, but opinion and debate are valued and openly encouraged.</p>
+    </div>
+
+    <div class="photo-img-2">
+        <img src="poster-meet-the-makers-1-300x169.jpg" alt="Meet the Makers">
+        <p>Meet the makers: Ableton developers of work</p>
+    </div>
+
+    <div class="section9">
+        <h2>We're passionate about what we do, but we're equally 
+            <br> passionate about improving who we are.</h2>
+        <p>We work hard to foster an environment where people can grow both personally and 
+            professionally<br>  and we strive to create a wealth of opportunities to learn
+             from and with each other.<br> <br>
+             Alongside an internal training program, employees are actively supported in 
+             acquiring new <br> knowledge and skills, and coached on applying 
+             these in their daily work. In addition, staff-<br> organized development and
+              music salons are a chance to discuss new technologies, production <br> techniques,
+               and best practices.</p>
+    </div>
+
+    <div class="background">
+        <img src="5ac635472.webp" alt="Right Image" class="right-image">
+        <img src="ableton-office.jpg" alt="Left Image" class="left-image">
+    </div>
+
+    <div class="section10">
+        <h3>We want our employees to love it here. Since we're looking for<br>
+             exceptional talent from around the world, we will do everything <br>
+             we can to make your transition as easy as possible.</h3>
+        <p>If you're joining us in Berlin, we'll help with relocation and paperwork. We'll
+             even provide you with <br>
+             free German or English lessons. Plus, working in Germany means you can expect 
+             comprehensive <br>
+              health insurance for you and your family, as well as generous maternity 
+              and paternity leave. Office  <br> 
+              hours are flexible, but it's not all work; we have several company and 
+              team outings throughout the <br>
+               year as well as a variety of fun, informal small-group activities.</p>
+    </div>
+
+    <div class="container">
+       
+        <div class="image-box">
+            <img src="ableton-office.jpg" alt="Image">
+        </div>
+
+
+         <div class="text-box">
+            <h2>We're really proud of the work<br>
+                 we've done so far. But there's so <br> 
+                 much more to come. If you'd like <br>
+               be a part of it, please join us.  <br><br> 
+                 <span style="color: blue;" >See latest jobs &gt;</span></h2>
+        </h2> </div>  </div>
+
+        <div class="button">
+            <h1>Ableton</h1>
+ 
+        </div>
+
+         
+        <div class="icon-container ">    <br>
+             register live or push  &gt;   <br>
+        about ableton  &gt; <br> jobs  &gt;
+    <br> 
+    <br >
+    <i class='bx bxl-facebook'  style='font-size: 50px; color: #1877F2;'></i>
+
+     <i class='bx bxl-twitter' style='font-size: 50px; color: #1DA1F2;'></i>
+    <i class='bx bxl-youtube' style='font-size: 50px; color: #FF0000;'></i>
+    <i class='bx bxl-instagram' style='font-size: 50px; color: #E4405F;'></i>
+
+    <br><br><br>
+  <b>  Community</b>  <br>   <br>  Find Ableton User Groups  &gt; <br> <br> Find Certified Training &gt;<br> <br>
+   Become a Certified Trainer  &gt;
+    
+    </div>
+     
+
+
+        <div class=" icon-container2"> 
+
+           <b>  Education </b><br> <br> Offers for students and teachers&gt; <br
+           ><br> Offers for institutions  &gt; <br> <br> Push 1 trade-in initiative
+            ; <br><br><br> <br> <b>Distributors </b><br> <br> <br>  Find Distributors  &gt; <br> <br>Try Push in-store &gt; <br>
+        </div>
+
+
+<div class=" icon-container1"><br><br> Sign up to our newsletter <br> <br> 
+     Enter your email address to stay up to date with the latest offers,<br> <br>  tutorials, downloads and more.   <br> <br> 
+    
+    <form >
+<input type="text" placeholder=" Email Address " > 
+ <button style="color: white;   background-color: blue;   " > Sign up </button>
+ <br><br><br><br> 
+
+ 
+ <label  >Language and Location </label><br> <br> 
+ <button >  English
+ <select id="chose" name="chose">
+     <option value="English"> </option> 
+    
+ </select>
+</button>
+<button >  United States
+    <select id="chose" name="chose">
+        <option value="English"> </option>
+       
+    </select>
+   </button>
+   
+
+    </form>
+    
+    </div>
+ 
+    <div class="final"> Archive  &nbsp;&nbsp;&nbsp; Contact Us&nbsp;&nbsp;&nbsp; Press
+          Resources &nbsp;&nbsp;&nbsp;Legal info &nbsp;&nbsp;&nbsp;Privacy  Policy 
+        &nbsp;&nbsp;&nbsp;Cookie Settings&nbsp;&nbsp;&nbsp; Imprint
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;    
+       &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  
+
+        Made in Berlin <img style="width: 50px; height: 40px;" src="images.png">
+    
+    
+    </div>
+
+
+    </div>
+</body>
+</html>
